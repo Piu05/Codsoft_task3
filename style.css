@@ -1,0 +1,141 @@
+*{
+    text-decoration: none;
+    font-family: "Kdam Thmor Pro", sans-serif;
+    scroll-behavior: smooth;
+}
+body{
+    margin:0px;
+}
+.p-left{
+    width:30vw;
+    position: fixed;
+    background-color: lightsalmon ;
+    height: 37.5rem;
+    top:1px;
+    text-align: center;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+}
+img{
+    width:10rem;
+    height: 10rem;
+    border-radius: 50%;
+}
+.pic{
+    padding-bottom: 10px;
+}
+  .p-left ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0%;
+}
+.p-left ul li {
+    padding: 30px;
+}
+  .section:hover, a:hover {
+    background-color: burlywood;
+}
+a {
+    text-decoration: none;
+    color: brown;
+  }
+.p-right{
+    width: 70vw;
+    position: absolute;
+    right: 0px;
+    text-align: center;
+    background-color: bisque;
+}
+.home-page{
+    padding-left: 10vw;
+    padding-top: 12rem;
+    text-align: center;
+    right: 0px;
+    width:50vw;
+    height: 37.5rem;
+    line-height: 150%;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.hello{
+    font-size: 50px;
+}
+.about-page{
+    padding-left: 10vw;
+    padding-top: 12rem;
+    right: 0px;
+    text-align: center;
+    height: 37.5rem;
+    width:50vw;
+    line-height: 150%;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.project-page{
+    padding-left: 10vw;
+    padding-top: 5rem;
+    right: 0px;
+    text-align: center;
+    height: 37.5rem;
+    line-height: 150%;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: grid;
+    max-width: 50vw;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-rows: 200px 200px;
+    grid-auto-rows: 200px;
+}
+.project-page > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    border:5px solid rosybrown ;
+  }
+.project-page .project:hover{
+    background-color: rosybrown;
+    cursor: pointer;
+}
+.contact-page{
+    padding-left: 10vw;
+    right: 0px;
+    padding-top:2rem;
+    text-align: center;
+    height: 37.5rem;
+    width:50vw;
+    line-height: 150%;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.mailid {
+    height: 3rem;
+    width: 27.5rem;
+    border-radius: 5px;
+    border: none;
+  }
+  .form-mail{
+    padding: 5px;
+  }
+  .form-message textarea {
+    border: none;
+    border-radius: 5px;
+  }
+  .form-btn button {
+    width: 7rem;
+    height: 2rem;
+    border: none;
+    color: grey;
+    background-color: white;
+    margin-bottom: 13rem;
+    cursor: pointer;
+  }
+.footer{
+    text-align: left;
+    font-size: 20px;
+}
